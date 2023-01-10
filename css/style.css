@@ -19,6 +19,7 @@ img {
     --dark: #333333;
     --yellow: #FDC15F;
     --white: #ffffff;
+    --purple: #9792E4;
 }
 
 ul,
@@ -45,7 +46,6 @@ a {
 .row {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .space-between {
@@ -138,4 +138,19 @@ a {
 }
 
 
+/* PLANING */
 
+.planning{
+    background-color: var(--purple);
+
+}
+
+/* TESTIMONIAL */
+
+/* BENEFIT*/
+.benefit{
+    background-color: var(--purple)
+}
+
+
+/* ABOUT US */
