@@ -55,6 +55,10 @@ a {
     flex-basis: calc(100%/3*1);
 }
 
+.col5{
+    flex-basis: calc(100%/2)
+}
+
 .col2{
     flex-basis: calc(100%/3*2);
 }
@@ -109,6 +113,12 @@ a {
     background-color: var(--blue);
 }
 
+.button--circle{
+    background-color: var(--purple);
+    line-height: 42px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
 
 /* HEADER */
 
@@ -280,7 +290,8 @@ a {
 }
 
 .card-planning img{
-    width: 70%;
+    width: 50%;
+    border-radius: 50%;
 }
 
 .section-planning .col-card{
@@ -335,3 +346,61 @@ a {
     margin: 25px 0;
     font-size: xx-large;
 }
+
+.partner-subtitle{
+    margin: 25px 0;
+}
+
+
+.section-partner .col{
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 0;
+    color: white;
+}
+
+.section-partner .col .col5{
+    display: flex;
+}
+
+.section-partner .row{
+    gap: 60px;
+}
+
+.card-partner{
+    background-color: var(--purple);
+    color: black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding:32px 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.card-partner p{
+    font-size: 14px;
+    line-height: 1.7em;
+    text-align: left;
+}
+
+.card-partner img{
+    aspect-ratio: 1/1;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.section-partner .col-card{
+    align-self: flex-end;
+}
+
+.section-partner .col__img{
+    margin-bottom: 100px;
+}
+
+.col-partner{
+    display: flex;
+    align-items: center
+}
+
